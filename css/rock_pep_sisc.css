@@ -1,0 +1,41 @@
+.game-container {
+  width: 400px;
+  height: 450px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.choices button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}

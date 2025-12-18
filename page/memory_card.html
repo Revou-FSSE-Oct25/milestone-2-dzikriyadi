@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Memory card game built with JavaScript for learning purposes">
+    <meta name="keywords" content="memory game, card game, javascript game">
+    <meta name=" author" content="dzikriyadi a.ka. zyx">
+
+    <title>ZYXFUN - GAMES</title>
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/memory_card.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome CDN -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header id="navigation" class="w-full relative">
+        <div class="flex flex-row w-full mx-auto item-center p-10 justify-between fixed top-0 right-0 left-0">
+            <h1 id="logo" class="lexend-giga-logo basis-1/3 text-left ">ZYXFUN</h1>
+            <nav class="basis-2/3 text-right ">
+                <a class="px-5 " href="../index.html">Home</a>
+                <a class="px-5" href="../page/games.html">Games</a>
+                <a class="px-5" href="../page/about.html">About</a>
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="w-5/6 mx-auto">
+        <section id="hero" class=" h-dvh hero flex flex-col justify-center item-center  ">
+            <!-- area tempat game -->
+            <h1 class="text-center judul-game">Memory Card Game.</h1>
+            <div class="game-container">
+                <h1>
+                    <p>Buka, dan temukan 3 kartu yang sama</p>
+
+                    <div class="board" id="board"></div>
+                    <p class="info" id="infoText"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="w-full h-10 text-white flex justify-center items-center  fixed bottom-0 right-0 left-0">
+        <p class="w-full text-right p-10">© 2025 ZYXFUN. All rights reserved.</p>
+    </footer>
+
+
+    <script src="../js/memory_card.js"></script>
+</body>
+
+</html>
