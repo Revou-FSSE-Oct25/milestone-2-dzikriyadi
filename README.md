@@ -1,6 +1,6 @@
 # ZYXFUN – Simple JavaScript Games
 
-[**[https://revou-fsse-oct25.github.io/milestone-2-dzikriyadi/]**](https://github.com/Revou-FSSE-Oct25/milestone-2-dzikriyadi)
+[**[https://revou-fsse-oct25.github.io/milestone-2-dzikriyadi/]**](https://revou-fsse-oct25.github.io/milestone-2-dzikriyadi/)
 
 ## Overview
 
