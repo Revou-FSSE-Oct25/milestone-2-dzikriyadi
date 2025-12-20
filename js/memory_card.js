@@ -1,5 +1,3 @@
-//Jujur ini sedikit di bantu Ai karna bingung akan gimna
-
 //data gambar kartu yang dibutuhkan
 
 const board = document.getElementById("board");
@@ -89,46 +87,3 @@ function checkMatch() {
 }
 
 setupGame();
-
-//biar ga pusing psoesdo codnya dulu
-
-// mulai
-
-// buat array simbol
-//     isi dengan 12 gambar
-
-// buat array kartu kosong
-// untuk setiap simbol
-//     masukkan simbol ke kartu sebanyak 3 kali
-
-// acak kartu
-
-// buat array kartu_terbuka kosong
-// buat variable grup_ditemukan = 0
-
-// tampilkan kartu ke layar dalam grid 6 x 6
-
-// ketika user klik kartu
-//     jika kartu sudah terbuka atau sudah cocok
-//         hentikan proses
-
-//     buka kartu
-//     masukkan kartu ke kartu_terbuka
-
-//     jika jumlah kartu_terbuka sama dengan 3
-//         ambil kartu 1, kartu 2, kartu 3
-
-//         jika ketiga kartu sama
-//             tandai ketiganya sebagai cocok
-//             tambah grup_ditemukan
-//             kosongkan kartu_terbuka
-
-//         jika tidak sama
-//             tunggu sebentar
-//             tutup kembali ketiga kartu
-//             kosongkan kartu_terbuka
-
-//     jika grup_ditemukan sama dengan 12
-//         tampilkan pesan menang
-
-// selesai
