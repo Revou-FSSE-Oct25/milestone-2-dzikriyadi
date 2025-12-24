@@ -41,12 +41,23 @@ function resetGame() {
 }
 
 // cek hasil tebakan
-if (guess > gameData.randomNumber) {
-  message = "Terlalu tinggi!";
-} else if (guess < gameData.randomNumber) {
-  message = "Terlalu rendah!";
-} else {
-  message = "Benar!";
+function checkGuess(guess) {
+  let message = "";
+
+  switch (true) {
+    case guess > gameData.randomNumber:
+      message = "Terlalu tinggi!";
+      break;
+
+    case guess < gameData.randomNumber:
+      message = "Terlalu rendah!";
+      break;
+
+    default:
+      message = `🎉 Benar! Angkanya adalah ${gameData.randomNumber}`;
+  }
+
+  return message;
 }
 
 // fungsi ketika tombol tebak di klik
